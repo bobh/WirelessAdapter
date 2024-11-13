@@ -1,0 +1,15 @@
+WARNING: The Antenna Switch Adapter may be powered by 12VDC or the 5VDC USB connector but
+not by both.
+
+1> Normal operation: Jumper JP1 is installed between pin 1 and 2 and then 12VDC is
+applied at the coax board power connector CN2. The USB development connector cable is 
+NOT connected.
+
+2> Program Development: Jumper JP1 is removed. Then the development USB cable is 
+connected. If the relays need to be actuated during development, 12 VDC may then be 
+applied to the coax board power connector CN2.
+
+NOTE: Jumper JP1 with jumper installed is intended to physically interfere with and 
+prevent connecting the USB cable.
+
+
